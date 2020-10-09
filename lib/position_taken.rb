@@ -1,4 +1,4 @@
-def position_taken?(X, O)
+def position_taken?(board, index)
   board[index] = ""
   index == ""
 end
