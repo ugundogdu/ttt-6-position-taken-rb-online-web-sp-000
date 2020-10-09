@@ -1,6 +1,6 @@
 def position_taken?(board, index)
   board[index] == ""
   index == ""
-  board[X] || board[O]
+  index[X] || index[O]
 end
 # code your #position_taken? method here!
